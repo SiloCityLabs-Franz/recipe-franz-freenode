@@ -1,0 +1,23 @@
+{
+  "id": "freenode-irc",
+  "name": "freenode",
+  "version": "1.0.0",
+  "description": "freenode irc",
+  "main": "index.js",
+  "author": "SiloCityLabs LLC",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://webchat.freenode.net/",
+    "serviceName": "freenode",
+    "message": "freenode",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
